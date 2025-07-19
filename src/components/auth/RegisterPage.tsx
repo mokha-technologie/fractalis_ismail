@@ -152,7 +152,7 @@ export default function RegisterPage({ onNavigate }: RegisterPageProps) {
 
             <Input
               type="tel"
-              placeholder="+225 XX XX XX XX XX"
+              placeholder="+227 XX XX XX XX"
               value={formData.telephone}
               onChange={(value) => updateFormData('telephone', value)}
               label="Numéro de téléphone"

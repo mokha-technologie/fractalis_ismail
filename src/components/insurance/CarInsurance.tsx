@@ -66,29 +66,49 @@ const vehicleTypes = [
 ];
 
 const getCompaniesForVehicleType = (vehicleType: VehicleType) => {
-  const baseCompanies = [
+  const nigerCompanies = [
     {
-      name: 'NSIA Assurances',
-      advantages: ['Assistance 24h/7j', 'Réparation express', 'Véhicule de remplacement'],
+      name: 'ALLIANZ Niger',
+      advantages: ['Assistance 24h/7j', 'Réseau international', 'Expertise reconnue'],
     },
     {
-      name: 'SUNU Assurances',
+      name: 'SAHAM Assurance Niger',
+      advantages: ['Couverture étendue', 'Service client dédié', 'Indemnisation rapide'],
+    },
+    {
+      name: 'SUNU Assurances Niger',
       advantages: ['Bonus fidélité', 'Extension famille', 'Service digital'],
     },
     {
-      name: 'SAHAM Assurance',
-      advantages: ['Couverture étendue', 'Expert dédié', 'Indemnisation rapide'],
+      name: 'NSIA Assurances Niger',
+      advantages: ['Protection complète', 'Assistance dépannage', 'Véhicule de remplacement'],
+    },
+    {
+      name: 'COLINA Assurance Niger',
+      advantages: ['Tarifs compétitifs', 'Service de proximité', 'Gestion simplifiée'],
+    },
+    {
+      name: 'ASKIA Assurance',
+      advantages: ['Expertise locale', 'Couverture adaptée', 'Conseil personnalisé'],
+    },
+    {
+      name: 'SONAR (Société Nigérienne d\'Assurance)',
+      advantages: ['Compagnie nationale', 'Connaissance du marché local', 'Tarifs préférentiels'],
+    },
+    {
+      name: 'GA Assurances Niger',
+      advantages: ['Réseau africain', 'Innovation digitale', 'Service premium'],
     },
   ];
 
   const pricesByType = {
-    moto: ['25,000', '22,000', '28,000'],
-    voiture: ['45,000', '42,000', '48,000'],
-    utilitaire: ['65,000', '62,000', '68,000'],
-    'poids-lourd': ['120,000', '115,000', '125,000'],
+    moto: ['28,000', '32,000', '26,000', '30,000', '24,000', '29,000', '25,000', '31,000'],
+    voiture: ['65,000', '68,000', '62,000', '70,000', '58,000', '66,000', '60,000', '72,000'],
+    utilitaire: ['95,000', '98,000', '92,000', '100,000', '88,000', '96,000', '90,000', '102,000'],
+    'poids-lourd': ['180,000', '185,000', '175,000', '190,000', '170,000', '182,000', '178,000', '195,000'],
   };
 
-  return baseCompanies.map((company, index) => ({
+  return nigerCompanies.map((company, index) => ({
     ...company,
     price: pricesByType[vehicleType][index],
   }));

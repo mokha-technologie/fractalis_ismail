@@ -98,7 +98,7 @@ export default function ForgotPasswordPage({ onNavigate }: ForgotPasswordPagePro
             <form onSubmit={handleSendOTP} className="space-y-6">
               <Input
                 type="tel"
-                placeholder="+225 XX XX XX XX XX"
+                placeholder="+227 XX XX XX XX"
                 value={telephone}
                 onChange={setTelephone}
                 label="Numéro de téléphone"

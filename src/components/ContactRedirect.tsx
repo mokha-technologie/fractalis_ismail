@@ -25,14 +25,15 @@ export default function ContactRedirect({ type, onNavigate }: ContactRedirectPro
   };
 
   const phoneNumber = '+225 XX XX XX XX XX';
+  const nigerPhoneNumber = '+227 XX XX XX XX';
 
   const handleCall = () => {
-    window.location.href = `tel:${phoneNumber}`;
+    window.location.href = `tel:${nigerPhoneNumber}`;
   };
 
   const handleWhatsApp = () => {
     const message = encodeURIComponent(`Bonjour, je suis intéressé(e) par l'assurance ${type}. Pouvez-vous me donner plus d'informations ?`);
-    window.open(`https://wa.me/${phoneNumber.replace(/\s/g, '')}?text=${message}`, '_blank');
+    window.open(`https://wa.me/${nigerPhoneNumber.replace(/\s/g, '')}?text=${message}`, '_blank');
   };
 
   return (
@@ -76,7 +77,7 @@ export default function ContactRedirect({ type, onNavigate }: ContactRedirectPro
             >
               <Phone className="h-5 w-5" />
               Appeler maintenant
-              <span className="font-mono text-sm">{phoneNumber}</span>
+              <span className="font-mono text-sm">{nigerPhoneNumber}</span>
             </Button>
 
             <Button

@@ -250,10 +250,10 @@ export default function ComplaintsForm({ onNavigate }: ComplaintsFormProps) {
               </p>
               <div className="space-y-2 text-sm">
                 <p className="text-green-700">
-                  <strong>Téléphone:</strong> +225 XX XX XX XX XX
+                  <strong>Téléphone:</strong> +227 XX XX XX XX
                 </p>
                 <p className="text-green-700">
-                  <strong>Email:</strong> support@fractalis.ci
+                  <strong>Email:</strong> support@fractalis.ne
                 </p>
                 <p className="text-green-700">
                   <strong>Horaires:</strong> Lun-Ven 8h-18h

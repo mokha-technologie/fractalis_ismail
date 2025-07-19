@@ -29,7 +29,7 @@ const formulas = [
   {
     id: 'cuivre',
     name: 'Cuivre',
-    price: '25,000',
+    price: '35,000',
     benefits: ['Frais de scolarité', 'Fournitures scolaires', 'Transport scolaire'],
     color: 'from-yellow-600 to-yellow-700',
     popular: false,
@@ -37,7 +37,7 @@ const formulas = [
   {
     id: 'bronze',
     name: 'Bronze',
-    price: '45,000',
+    price: '65,000',
     benefits: ['Cuivre +', 'Activités périscolaires', 'Assurance santé étudiant'],
     color: 'from-orange-600 to-orange-700',
     popular: false,
@@ -45,7 +45,7 @@ const formulas = [
   {
     id: 'argent',
     name: 'Argent',
-    price: '75,000',
+    price: '120,000',
     benefits: ['Bronze +', 'Cours particuliers', 'Équipement informatique'],
     color: 'from-gray-500 to-gray-600',
     popular: true,
@@ -53,7 +53,7 @@ const formulas = [
   {
     id: 'or',
     name: 'Or',
-    price: '120,000',
+    price: '200,000',
     benefits: ['Argent +', 'Études supérieures', 'Séjours linguistiques', 'Bourse d\'excellence'],
     color: 'from-yellow-500 to-yellow-600',
     popular: false,

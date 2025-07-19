@@ -57,7 +57,7 @@ export default function LoginPage({ onNavigate }: LoginPageProps) {
 
             <Input
               type="tel"
-              placeholder="+225 XX XX XX XX XX"
+              placeholder="+227 XX XX XX XX"
               value={telephone}
               onChange={setTelephone}
               label="Numéro de téléphone"
